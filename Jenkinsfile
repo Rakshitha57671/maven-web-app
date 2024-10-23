@@ -14,12 +14,8 @@ pipeline {
         }
         stage('Build') {
             steps {
-               sh 'mvn clean'
+               sh 'mvn clean package'
             }
-	     steps {
-               sh 'mvn  package'
-            }
-
         }        
         stage('Create Image'){
             steps{
