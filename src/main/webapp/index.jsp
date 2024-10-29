@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1><font color='navyblue'> Welcome to DevOps class <font></h1>
+<h1><font color='Dark blue'> Welcome to DevOps class <font></h1>
 
 
 
